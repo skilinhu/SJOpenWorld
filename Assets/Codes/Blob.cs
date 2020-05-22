@@ -20,7 +20,6 @@ public class Blob : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        print("bati");
         rdb.isKinematic = true;
     }
 }

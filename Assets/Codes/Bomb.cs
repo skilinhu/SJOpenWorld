@@ -15,7 +15,6 @@ public class Bomb : MonoBehaviour
 
     void Explode()
     {
-        print("Boom!");
         Instantiate(fxPrefab, transform.position, transform.rotation);
         Destroy(gameObject);
         RaycastHit[] hits;
